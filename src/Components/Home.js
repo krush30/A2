@@ -12,14 +12,7 @@ import Footer from './Footer';
 const Home = () => {
     return (
         <div>
-            <Header />
-            <Intro />
-            <Cards />
-            <Offers />
-            <Overview />
-            <Level />
-            <Faqs />
-            <Footer />
+
 
         </div>
     )

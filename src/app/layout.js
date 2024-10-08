@@ -1,5 +1,13 @@
 import localFont from "next/font/local";
 import "./globals.css";
+import Header from "Components/Header";
+import Intro from "Components/Intro";
+import Cards from "Components/Cards";
+import Offers from "Components/Offers";
+import Overview from "Components/Overview";
+import Level from "Components/Level";
+import Faqs from "Components/Faqs";
+import Footer from "Components/Footer";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -27,6 +35,15 @@ export default function RootLayout({ children }) {
       >
         <div className="w-[90%] m-auto">
           {children}
+          <Header />
+          <Intro />
+          <Cards />
+          <Offers />
+          <Overview />
+          <Level />
+          <Faqs />
+          <Footer />
+
         </div>
 
 
