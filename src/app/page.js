@@ -8,6 +8,8 @@ import Overview from '@/Components/Overview';
 import Level from '@/Components/Level';
 import Faqs from '@/Components/Faqs';
 import Footer from '@/Components/Footer';
+import './globals.css';
+
 
 const page = () => {
   return (
